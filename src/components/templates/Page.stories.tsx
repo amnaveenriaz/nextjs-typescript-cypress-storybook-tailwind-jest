@@ -1,10 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import * as HeaderStories from './Header.stories';
+import * as HeaderStories from '../organisms/Header.stories';
 import { Page } from './Page';
 
 export default {
-  title: 'Example/Page',
+  title: 'Templates/Page',
   component: Page,
 } as ComponentMeta<typeof Page>;
 
